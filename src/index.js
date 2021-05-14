@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import User from './components/user/User';
+import {UserManagement} from './components/user-component';
 
 ReactDOM.render(
   <React.StrictMode>
-    <User />
+    <UserManagement />
   </React.StrictMode>,
   document.getElementById('root')
 );
